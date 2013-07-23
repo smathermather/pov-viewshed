@@ -39,15 +39,15 @@ camera {
 }
 
 height_field {
-   png "n2225625i1.png" 
+   png "dem.png" 
    water_level 0.0    
   texture {
 	pigment {
 		rgb <1, 1, 1>
 	}
   }      
-   scale <5000, 65536, 5000> // Scale to real world size
-   translate <2224868+130,0,625008> // Move to state plane coordinates
+   scale <5000, 309, 5000> // Scale to real world size
+   translate <2224868+130,0+686,625008> // Move to state plane coordinates
 }
 
 // Loop though our light positions
