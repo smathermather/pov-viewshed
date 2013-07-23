@@ -58,7 +58,7 @@ height_field {
        
         light_source {
                 0*x
-                color rgb <0,2,2> 
+                color rgb <2,2,2> 
                 translate lightPosits[Index]
         }
 
