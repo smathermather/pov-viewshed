@@ -79,6 +79,7 @@ height_field {
 		scale 80+rand(Rnd_1)*20 // trees 80 to 100 feet tall
 		rotate <0,rand(Rnd_1)*360,0>
 		translate treePosits[Index]
+		no_image
 	}
                     
 #declare Index = Index + 1;
